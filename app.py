@@ -40,7 +40,7 @@ fig = px.bar(top5_results,
              color='Sijoitus', # Nyt tässä on eri arvot jokaiselle!
              text='country_name',
              barmode='group',
-             title='Vuosittaiset TOP 5 ennakkosuosikit vierekkäin',
+             title='Vuosittaiset TOP 5 vierekkäin',
              labels={'win_chance': 'Voittomahdollisuus (%)', 'year': 'Vuosi', 'country_name': 'Maa'})
 
 # Jotta graafi ei ole pelkkää sateenkaarta, pakotetaan vuodet kategorioiksi
